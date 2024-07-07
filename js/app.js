@@ -172,7 +172,8 @@ const displayCoins = (coins, currentPage) => {
     `;
 
         row.addEventListener('click', () => {
-            window.open(`/coins/coin.html?id=${coin.id}`, "_blank");
+            //window.open(`./coins/coin.html?id=${coin.id}`, "_blank");
+            window.open(`../coins/coin.html?id=${coin.id}`, "_blank");
         })
 
         //onclick="handleFavClick(this)"
