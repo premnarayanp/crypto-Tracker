@@ -3,6 +3,7 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        overflow: hidden;
     }
     
     .navbar {
@@ -153,4 +154,56 @@
     .favourite-icon:hover,
     .favorite {
         color: gold;
+    }
+    
+    #coin-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        /* gap: 20px; */
+        border: solid 2px gray;
+        width: 90%;
+        padding: 5px 30px;
+        height: 80vh;
+        overflow: hidden;
+        flex-wrap: wrap;
+    }
+    /* #chort-section {
+        min-width: 450px;
+    }
+    
+    #sidebar {
+        min-width: 450px;
+    } */
+    /* #coinChartP {
+
+    } */
+    
+    .button-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        margin-bottom: 40px;
+        margin-top: 0;
+    }
+    
+    .button-container button {
+        border-radius: 5px;
+        background-color: green;
+        color: white;
+        padding: 1px 10px;
+        cursor: pointer;
+    }
+    /* .market-data {
+        display: flex;
+        align-items: center;
+    } */
+    
+    #coin-image {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .description {
+        max-width: 350px;
     }
